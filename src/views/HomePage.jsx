@@ -1,10 +1,11 @@
 import PostCard from "../components/PostCard"
+import PageHeader from "../components/PageHeader";
 
 export default function HomePage() {
   
   return (
     <div className="flex flex-col">
-      <h1 className='text-3xl text-red-600'>Home</h1>
+      <PageHeader title={"Home"}/>
 
 
       <div className="grid grid-cols-3 gap-4">

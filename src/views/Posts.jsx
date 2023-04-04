@@ -1,9 +1,10 @@
 import Link from 'next/link';
+import PageHeader from '../components/PageHeader';
 
 export default function Posts() {
   return (
     <>
-      <h1 className='text-3xl text-red-600'>Posts</h1>
+      <PageHeader title={"Posts"}/>
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
