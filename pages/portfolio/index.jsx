@@ -1,8 +1,10 @@
+import PageHeader from "../../src/components/PageHeader";
+
 export default function Portfolio() {
 
     return (
       <div>
-        <h1 className='text-3xl text-red-600'>Portfolio</h1>
+        <PageHeader title={"Portfolio"}/>
       </div>
     );
   }
