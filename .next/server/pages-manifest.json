@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/teams": "pages/teams.js",
-  "/about": "pages/about.js",
-  "/posts": "pages/posts.js",
-  "/": "pages/index.js",
-  "/portfolio": "pages/portfolio.js"
+  "/interest": "pages/interest.js",
+  "/": "pages/index.js"
 }
