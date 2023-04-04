@@ -10,7 +10,7 @@ export default function Header() {
                         <Link className="text-xl text-yellow-500" href="/about">About</Link>
                         <Link className="text-xl text-yellow-500" href="/posts">Blogs</Link>
                         <Link className="text-xl text-yellow-500" href="/portfolio">Portfolio</Link>
-                        <Link className="text-xl text-yellow-500" href="/teams">Teams</Link>
+                        <Link className="text-xl text-yellow-500" href="/interest">Interest</Link>
                     </div>
                 </div>
             </div>
