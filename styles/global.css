@@ -24,3 +24,14 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.intro-bg{
+  background: rgba(256, 256, 256, 0.4);
+}
+
+.bg-image{
+  background-image: url('../public/nefs.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-size: cover;
+}
