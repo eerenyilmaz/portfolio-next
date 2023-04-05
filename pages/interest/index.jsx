@@ -14,7 +14,7 @@ export default function Teams() {
     setTeamStatus(2)
   }
     return (
-      <div>
+      <div className="mx-auto max-w-screen-md">
         <PageHeader title={"Interests"}/>
 
         <div className="mb-20">

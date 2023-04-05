@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader";
 export default function About() {
 
   return (
-    <div>
+    <div className="mx-auto max-w-screen-md">
       <PageHeader title={"About"}/>
       
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
