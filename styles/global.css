@@ -26,12 +26,13 @@ img {
 }
 
 .intro-bg{
-  background: rgba(256, 256, 256, 0.4);
+  background: rgba(1, 1, 1, 0.8);
 }
 
 .bg-image{
-  background-image: url('../public/nefs.webp');
+  background-image: url('../public/1271722.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-    background-size: cover;
+  background-size: cover;
+  
 }
