@@ -14,12 +14,12 @@ export default function Teams() {
     setTeamStatus(2)
   }
     return (
-      <div className="mx-auto max-w-screen-md">
+      <div className="max-w-screen-md">
         <PageHeader title={"Interests"}/>
 
         <div className="mb-20">
           <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-600 relative inline-block mb-10">
-            <span className="text-2xl relative text-white">Teams Supported</span>
+            <span className="text-xl relative text-white">Teams Supported</span>
           </span>
 
           <div className="flex flex-row justify-between gap-x-1 mb-4">
@@ -35,7 +35,7 @@ export default function Teams() {
 
         <div className="">
           <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-600 relative inline-block mb-10">
-            <span className="text-2xl relative text-white">Skills</span>
+            <span className="text-xl relative text-white">Skills</span>
           </span>
 
           <div className="grid grid-cols-4 gap-4">

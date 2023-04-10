@@ -2,6 +2,8 @@
 
 export default function PageHeader({title}) {
     return (
-        <h1 className='text-3xl text-red-600 text-center mb-6 text-center font-semibold'>{title}</h1>
+        <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-600 relative inline-block mb-10">
+            <span className="text-4xl relative text-white">{title}</span>
+        </span>
     )
 }
