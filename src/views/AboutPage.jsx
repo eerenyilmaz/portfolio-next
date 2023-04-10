@@ -6,7 +6,7 @@ export default function About() {
     <div className="mx-auto max-w-screen-md mb-20">
       <PageHeader title={"About"}/>
       
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
           <br />
