@@ -14,31 +14,26 @@ export default function Teams() {
     setTeamStatus(2)
   }
     return (
-      <div className="max-w-screen-md">
+      <div className="max-w-screen-md ">
         <PageHeader title={"Interests"}/>
 
-        <div className="mb-20">
-          <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-600 relative inline-block mb-10">
-            <span className="text-xl relative text-white">Teams Supported</span>
-          </span>
+        <div className="mb-20 text-center flex flex-col items-center">
+          <span className="text-xl w-auto relative text-red-600 font-semibold border-b-4 border-yellow-500">Supported Teams</span>
 
-          <div className="flex flex-row justify-between gap-x-1 mb-4">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Galatasaray_4_Sterne_Logo.svg" width={100} className="self-start cursor-pointer hover:scale-110 transition" onClick={logoGS}/>
+          <div className="flex flex-row gap-x-10 mb-4 mt-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Galatasaray_4_Sterne_Logo.svg" width={100} className="self-start hover:scale-110 transition" onClick={logoGS}/>
 
-            <img src="https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png" width={100} className="self-end cursor-pointer hover:scale-110 transition" onClick={logoArsenal}/>
+            <img src="https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png" width={100} className="self-end hover:scale-110 transition" onClick={logoArsenal}/>
           </div>
 
-          <TeamDetail status={teamStatus}/>
+          {/* <TeamDetail status={teamStatus}/> */}
         
-          
         </div>
 
-        <div className="">
-          <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-600 relative inline-block mb-10">
-            <span className="text-xl relative text-white">Skills</span>
-          </span>
+        <div className="text-center">
+          <span className="text-xl relative text-red-600 font-semibold border-b-4 border-yellow-500">Skills</span>
 
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-4 gap-4 mt-4">
             <ImageSkills path={"../logo192.png"} name={"HTML"} />
             <ImageSkills path={"../logo192.png"} name={"CSS"} />
             <ImageSkills path={"../logo192.png"} name={"Bootstrap"} />
