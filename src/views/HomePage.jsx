@@ -2,6 +2,7 @@ import PostCard from "../components/PostCard"
 import PageHeader from "../components/PageHeader";
 import About from "./AboutPage";
 import Teams from "../../pages/interest";
+import Resume from "../../pages/resume";
 
 export default function HomePage() {
   
@@ -11,6 +12,8 @@ export default function HomePage() {
       <About />
 
       <Teams />
+
+      <Resume />
 
       {/* <div className="grid grid-cols-3 gap-4">
         <PostCard header={"Header 1"} id={0} description={"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."}/>
