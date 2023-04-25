@@ -3,17 +3,20 @@ import PageHeader from "../components/PageHeader";
 import About from "./AboutPage";
 import Teams from "../../pages/interest";
 import Resume from "../../pages/resume";
+import Portfolio from "../../pages/portfolio";
 
 export default function HomePage() {
   
   return (
-    <div className="flex flex-col mx-auto max-w-screen-md">
+    <div className="flex flex-col mx-auto max-w-screen-md px-4 md:px-0">
 
       <About />
 
       <Teams />
 
       <Resume />
+
+      <Portfolio />
 
       {/* <div className="grid grid-cols-3 gap-4">
         <PostCard header={"Header 1"} id={0} description={"Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."}/>

@@ -10,7 +10,7 @@ export default function Intro() {
                     <span className="text-yellow-600 text-4xl md:text-5xl mb-5">I'm Erol Eren Yılmaz</span>
                     <div className="inline-flex items-center justify-center w-full mb-10">
                         <hr className="w-12 h-1 bg-gray-200 border-0 rounded bg-yellow-600 mx-2" />
-                        <span className="text-red-600 text-2xl md:text-3xl">FRONT-END DEVELOPER</span>
+                        <span className="text-red-600 text-xl md:text-3xl">FRONT-END DEVELOPER</span>
                         <hr className="w-12 h-1 bg-gray-200 border-0 rounded bg-yellow-600 mx-2" />
                     </div>
                     <SocialMedia />
