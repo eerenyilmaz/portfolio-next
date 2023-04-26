@@ -25,6 +25,10 @@ img {
   display: block;
 }
 
+.home-page{
+    width: 1080px;
+}
+
 .intro-bg{
   background: rgba(1, 1, 1, 0.8);
 }
@@ -34,5 +38,22 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  
+}
+
+.portfolio-card{
+  border-radius: 20px;
+  border-width: 2px;
+  background-color: red;
+}
+.card-top{
+  background-image: url('../public/IMG_1850.jpg');
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 100px;
+}
+
+.card-bottom{
   
 }
