@@ -8,7 +8,7 @@ import Portfolio from "../../pages/portfolio";
 export default function HomePage() {
   
   return (
-    <div className="flex flex-col mx-auto max-w-screen-md px-4 md:px-0">
+    <div className="flex flex-col mx-auto max-w-screen-lg px-4 md:px-0">
 
       <About />
 

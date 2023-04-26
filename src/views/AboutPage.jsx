@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader";
 export default function About() {
 
   return (
-    <div className="mx-auto max-w-screen-md mb-20">
+    <div className="mx-auto max-w-screen-lg mb-20">
       <PageHeader title={"About"}/>
       
       <div className="flex flex-col md:flex-row justify-center items-center">

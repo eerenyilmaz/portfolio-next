@@ -14,7 +14,7 @@ export default function Teams() {
     setTeamStatus(2)
   }
     return (
-      <div className="max-w-screen-md mb-20">
+      <div className="max-w-screen-lg mb-20">
         <PageHeader title={"Interests"}/>
 
         <div className="mb-20 text-center flex flex-col items-center">
@@ -33,7 +33,7 @@ export default function Teams() {
         <div className="text-center">
           <span className="text-xl relative text-red-600 font-semibold border-b-4 border-yellow-500">Skills</span>
 
-          <div className="grid grid-cols-4 gap-4 mt-4">
+          <div className="grid grid-cols-3 md:grid-cols-8 gap-4 mt-4">
             <ImageSkills path={"../logo192.png"} name={"HTML"} />
             <ImageSkills path={"../logo192.png"} name={"CSS"} />
             <ImageSkills path={"../logo192.png"} name={"Bootstrap"} />
