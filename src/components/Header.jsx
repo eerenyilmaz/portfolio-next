@@ -8,9 +8,9 @@ export default function Header() {
                     <Link className="font-medium text-white text-2xl pl-4 md:pl-0" href="/">EEY</Link>
                     <div className="flex gap-1 md:gap-2 text-gray-500 items-end pl-4">
                         <Link className="text-xl text-yellow-500 px-2 py-1 rounded-md font-semibold hover:bg-white hover:text-red-600 transition duration-300" href="/about">About</Link>
+                        <Link className="text-xl text-yellow-500 px-2 py-1 rounded-md font-semibold hover:bg-white hover:text-red-600 transition duration-300" href="/interest">Interest</Link>
                         {/* <Link className="text-xl text-yellow-500 px-3 py-1 rounded-md font-semibold hover:bg-white hover:text-red-600 transition duration-300" href="/posts">Blogs</Link> */}
                         <Link className="text-xl text-yellow-500 px-2 py-1 rounded-md font-semibold hover:bg-white hover:text-red-600 transition duration-300" href="/portfolio">Portfolio</Link>
-                        <Link className="text-xl text-yellow-500 px-2 py-1 rounded-md font-semibold hover:bg-white hover:text-red-600 transition duration-300" href="/interest">Interest</Link>
                     </div>
                 </div>
             </div>
