@@ -17,7 +17,7 @@ export default function ResumeDetail({year, name, description, current}) {
                     <div className="w-1/5 flex items-center justify-center">
                         <div className={"border-dashed border-l-2 border-red-600 " + ( year == 2016 ? '' : 'h-full')}></div>
                     </div>
-                    <div className="w-4/5 h-full pb-10 pt-5 px-2">
+                    <div className="w-4/5 h-full">
                         { description }
                     </div>
                 </div>
