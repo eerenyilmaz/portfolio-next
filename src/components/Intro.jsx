@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 
 export default function Intro() {
     return (
-        <div className="w-full h-screen bg-image mb-20">
+        <div id="intro" className="w-full h-screen bg-image mb-20">
             <div className="intro-bg h-full flex items-center justify-center flex-col">
                 <span className="text-white font-semibold flex flex-col items-center pb-40">
                     <span className="text-red-600 text-2xl md:text-3xl mb-5">Hello,</span>
