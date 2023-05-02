@@ -54,6 +54,24 @@ img {
   padding: 100px;
 }
 
-.card-bottom{
-  
+.color-blue{
+  color: #0079AF;
+}
+
+.bg-blue{
+  background-color: #0079AF;
+}
+
+.color-light-blue{
+  color: #CCE4EF;
+}
+.bg-light-blue{
+  background-color: #CCE4EF;
+}
+
+.color-dark-blue{
+  color: #001823;
+}
+.bg-dark-blue{
+  background-color: #001823;
 }
