@@ -18,7 +18,7 @@ export default function Teams() {
         <PageHeader title={"Interests"}/>
 
         <div className="mb-20 text-center flex flex-col items-center">
-          <span className="text-xl w-auto relative text-red-600 font-semibold border-b-4 border-yellow-500">Supported Teams</span>
+          <span className="text-xl w-auto relative color-blue font-semibold border-b-4 border-blue-200">Supported Teams</span>
 
           <div className="flex flex-row gap-x-10 mb-4 mt-4">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Galatasaray_4_Sterne_Logo.svg" width={100} className="self-start hover:scale-110 transition" onClick={logoGS}/>
@@ -31,7 +31,7 @@ export default function Teams() {
         </div>
 
         <div className="text-center">
-          <span className="text-xl relative text-red-600 font-semibold border-b-4 border-yellow-500">Skills</span>
+          <span className="text-xl relative color-blue font-semibold border-b-4 border-blue-200">Skills</span>
 
           <div className="grid grid-cols-3 md:grid-cols-8 gap-4 mt-4">
             <ImageSkills path={"../logo192.png"} name={"HTML"} />
