@@ -2,6 +2,7 @@ import '../styles/global.css'
 import 'tailwindcss/tailwind.css'
 import Header from '../src/components/Header';
 import { Nunito } from 'next/font/google'
+import Footer from '../src/views/Footer';
 
 const nunito = Nunito({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ const nunito = Nunito({ subsets: ['latin'] })
           </div>
         </div>
       </main>
+      <Footer />
     </>
    )
  }

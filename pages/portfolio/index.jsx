@@ -4,7 +4,7 @@ import PortfolioPage from "../../src/views/PortfolioPage";
 export default function Portfolio() {
 
     return (
-      <div id="portfolio" className="max-w-screen-lg h-auto pt-20">
+      <div id="portfolio" className="mx-auto max-w-screen-lg h-auto py-20">
         <PageHeader title={"Portfolio"}/>
         <PortfolioPage />
       </div>

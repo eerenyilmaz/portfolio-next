@@ -12,13 +12,13 @@ export default function PortfolioCard({header, description, imageUrl, language})
                     <div className="font-bold text-xl mb-2 text-blue-200 flex">
                         <span className="self-start">{ header }</span>
                     </div>
-                    <p className="text-gray-700 text-base text-blue-200">
-                        {description}
+                    <p className="color-light-blue text-base text-blue-200">
+                        { description }
                     </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
                     <span className="inline-block bg-sky-950 rounded px-2 py-1 text-sm font-semibold text-sky-300 mr-2 mb-2">
-                        { language}
+                        { language }
                     </span>
                 </div>
             </div>

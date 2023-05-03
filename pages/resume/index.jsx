@@ -4,7 +4,7 @@ import ResumeDetail from "../../src/components/ResumeDetail"
 
 export default function Resume(){
     return (
-        <div id="resume" className="max-w-screen-lg mb-20 pt-20">
+        <div id="resume" className="mx-auto max-w-screen-lg mb-20 pt-20">
             <PageHeader title={"Resume"}/>
 
             <ResumeDetail 
