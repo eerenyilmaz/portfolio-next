@@ -1,6 +1,6 @@
 export default function ResumeDetail({year, name, description, current}) {
     return (
-        <div className="flex flex-col px-20">
+        <div className="flex flex-col md:px-20">
             <div className="flex flex-row">
                 <div className={"w-1/5 flex items-center justify-center"}>
                     <div className={"w-10 h-10 flex items-center justify-center rounded-full border-2 border-sky-800" + ( !current ? ' color-blue' : ' bg-blue color-light-blue')}>
